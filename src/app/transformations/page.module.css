@@ -1,0 +1,63 @@
+.pageWrapper {
+  padding-top: var(--nav-height);
+  min-height: 100vh;
+  background-color: var(--color-background);
+  padding-bottom: 6rem;
+}
+
+.header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem auto;
+}
+
+.title {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+}
+
+.transformationsList {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projectBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sliderContainer {
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.projectInfo {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projectInfo h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projectInfo p {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 1024px) {
+  .projectBlock {
+    gap: 3rem;
+  }
+}
