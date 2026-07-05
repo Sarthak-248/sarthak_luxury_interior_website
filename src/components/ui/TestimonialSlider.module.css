@@ -1,0 +1,115 @@
+.sliderContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sliderTrack {
+  position: relative;
+  min-height: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonialCard {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 3rem;
+  border-left: 2px solid var(--color-accent);
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-width: 640px) {
+  .testimonialCard {
+    padding: 2rem;
+  }
+}
+
+.stars {
+  color: var(--color-accent);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+
+.testimonialText {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.clientInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.clientAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--color-border);
+}
+
+.clientInfo h5 {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.clientInfo span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.controlBtn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--color-secondary);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.controlBtn:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.dots {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.activeDot {
+  background-color: var(--color-accent);
+  transform: scale(1.2);
+}
