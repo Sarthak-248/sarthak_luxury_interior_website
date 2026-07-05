@@ -180,7 +180,7 @@ export default function Home() {
         <div className={styles.projectsGrid}>
           {/* Project 1 */}
           <div className={`${styles.projectCard} ${styles.tall}`}>
-            <Image src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80" alt="Modern Luxury Apartment" fill className={styles.projectImage} />
+            <Image src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80" alt="Modern Luxury Apartment" fill className={styles.projectImage} />
             <div className={styles.projectInfo}>
               <h4>Modern Luxury Apartment</h4>
               <p>Residential</p>
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
           {/* Project 2 */}
           <div className={styles.projectCard}>
-            <Image src="https://images.unsplash.com/photo-1600566753086-00f18efc2291?auto=format&fit=crop&q=80" alt="Minimal Villa" fill className={styles.projectImage} />
+            <Image src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80" alt="Minimal Villa" fill className={styles.projectImage} />
             <div className={styles.projectInfo}>
               <h4>Minimal Villa</h4>
               <p>Residential</p>
@@ -204,7 +204,7 @@ export default function Home() {
           </div>
           {/* Project 4 */}
           <div className={`${styles.projectCard} ${styles.wide}`}>
-            <Image src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80" alt="Luxury Kitchen" fill className={styles.projectImage} />
+            <Image src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80" alt="Luxury Kitchen" fill className={styles.projectImage} />
             <div className={styles.projectInfo}>
               <h4>Luxury Kitchen</h4>
               <p>Residential</p>
