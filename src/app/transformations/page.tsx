@@ -13,22 +13,22 @@ const transformations = [
     id: 1,
     title: "The Heritage Estate",
     description: "A complete overhaul of a 1920s estate, transforming a dated, dark layout into a luminous, modern luxury residence while preserving its historic soul.",
-    beforeImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
-    afterImage: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80"
+    beforeImage: "/images/transformations/living_before.png",
+    afterImage: "/images/transformations/living_after.png"
   },
   {
     id: 2,
     title: "Metropolitan Penthouse",
     description: "Stripping away early 2000s finishes to reveal a breathtaking, minimalist canvas overlooking the city skyline, featuring bespoke millwork and curated art.",
-    beforeImage: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80",
-    afterImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80"
+    beforeImage: "/images/transformations/kitchen_before.png",
+    afterImage: "/images/transformations/kitchen_after.png"
   },
   {
     id: 3,
     title: "Coastal Retreat",
     description: "From a cramped, enclosed floorplan to a sprawling, open-concept living space that seamlessly integrates indoor and outdoor coastal living.",
-    beforeImage: "https://images.unsplash.com/photo-1595526114101-118df287d3df?auto=format&fit=crop&q=80",
-    afterImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80"
+    beforeImage: "/images/transformations/bedroom_before.png",
+    afterImage: "/images/transformations/bedroom_after.png"
   }
 ];
 

@@ -2,11 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 import { SectionContainer } from "@/components/layout/SectionContainer";
 import { Button } from "@/components/ui/Button";
+import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import styles from './page.module.css';
 
 export const metadata = {
   title: "Services | Aether Interiors",
-  description: "Comprehensive luxury interior design solutions tailored to your lifestyle.",
+  description: "Comprehensive luxury interior design services tailored to your unique lifestyle.",
 };
 
 const services = [
@@ -75,6 +76,10 @@ export default function ServicesPage() {
           </SectionContainer>
         ))}
       </div>
+
+      <SectionContainer>
+        <FaqAccordion />
+      </SectionContainer>
     </div>
   );
 }
